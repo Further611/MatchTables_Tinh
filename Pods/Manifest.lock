@@ -1,0 +1,26 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - lottie-ios (2.5.2)
+  - PMAlertController (3.5.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - lottie-ios
+  - PMAlertController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ChameleonFramework
+    - lottie-ios
+    - PMAlertController
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  PMAlertController: 06dab8160066fc4ce991c880e3722cd403e2926a
+
+PODFILE CHECKSUM: 3d747c514c0aff4eca8c94450410ed129e2ffe12
+
+COCOAPODS: 1.5.2

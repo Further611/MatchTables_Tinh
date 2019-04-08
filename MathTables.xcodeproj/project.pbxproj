@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D5AC22C6A5B3DD3AE6782A7 /* Pods_MathTables.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2D9ECD5CF795E47711FE93 /* Pods_MathTables.framework */; };
+		7F014BA22232156D007ECE1E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F014BA12232156D007ECE1E /* MainViewController.swift */; };
+		7F014BA522322091007ECE1E /* LuckiestGuy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F014BA32232206B007ECE1E /* LuckiestGuy-Regular.ttf */; };
+		7F17B5F722363BFD002CF027 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17B5F622363BFD002CF027 /* ScoreViewController.swift */; };
+		7F17B5F9223654CB002CF027 /* ScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17B5F8223654CB002CF027 /* ScoreTableViewCell.swift */; };
+		7F824D2D2234C519002A8D49 /* submit.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D2C2234C519002A8D49 /* submit.json */; };
+		7F824D2F2234F857002A8D49 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F824D2E2234F857002A8D49 /* Extension.swift */; };
+		7F824D31223508DB002A8D49 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D30223508DB002A8D49 /* confetti.json */; };
+		7F824D3722350DFB002A8D49 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D3322350DFB002A8D49 /* correct.mp3 */; };
+		7F824D3822350DFB002A8D49 /* button_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D3422350DFB002A8D49 /* button_click.mp3 */; };
+		7F824D3922350DFB002A8D49 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D3522350DFB002A8D49 /* wrong.mp3 */; };
+		7F824D3A22350DFB002A8D49 /* level_failed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D3622350DFB002A8D49 /* level_failed.mp3 */; };
+		7F824D3C22350E2E002A8D49 /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F824D3B22350E2E002A8D49 /* MusicHelper.swift */; };
+		7F824D4422352C76002A8D49 /* sky.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D4322352C76002A8D49 /* sky.json */; };
+		7F824D4822352DA1002A8D49 /* wrong.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F824D4722352DA1002A8D49 /* wrong.json */; };
+		7F8FF04222324F6E00737073 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F8FF04122324F6C00737073 /* FredokaOne-Regular.ttf */; };
+		7FA079012235743B0005D68C /* correct.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FA079002235743B0005D68C /* correct.json */; };
+		7FA0790322357A610005D68C /* transition.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0790222357A600005D68C /* transition.json */; };
+		7FB24B58222E185D0093C578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B57222E185D0093C578 /* AppDelegate.swift */; };
+		7FB24B5D222E185D0093C578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB24B5B222E185D0093C578 /* Main.storyboard */; };
+		7FB24B5F222E185E0093C578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB24B5E222E185E0093C578 /* Assets.xcassets */; };
+		7FB24B62222E185E0093C578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB24B60222E185E0093C578 /* LaunchScreen.storyboard */; };
+		7FB24B6C222E19DA0093C578 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B6B222E19DA0093C578 /* CategoryViewController.swift */; };
+		7FB24B6E222E217D0093C578 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B6D222E217D0093C578 /* Constant.swift */; };
+		7FB24B72222E22960093C578 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B71222E22960093C578 /* LearnViewController.swift */; };
+		7FB24B75222E26A40093C578 /* MultiplicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B74222E26A40093C578 /* MultiplicationTableViewCell.swift */; };
+		7FB24B77222E5A010093C578 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B76222E5A010093C578 /* PracticeViewController.swift */; };
+		7FB24B79222E5DAB0093C578 /* MultiPracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B78222E5DAB0093C578 /* MultiPracticeTableViewCell.swift */; };
+		7FB24B7B222E71F50093C578 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB24B7A222E71F50093C578 /* PlayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E2D9ECD5CF795E47711FE93 /* Pods_MathTables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathTables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F014BA12232156D007ECE1E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7F014BA32232206B007ECE1E /* LuckiestGuy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LuckiestGuy-Regular.ttf"; sourceTree = "<group>"; };
+		7F17B5F622363BFD002CF027 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		7F17B5F8223654CB002CF027 /* ScoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreTableViewCell.swift; sourceTree = "<group>"; };
+		7F824D2C2234C519002A8D49 /* submit.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = submit.json; sourceTree = "<group>"; };
+		7F824D2E2234F857002A8D49 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7F824D30223508DB002A8D49 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		7F824D3322350DFB002A8D49 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		7F824D3422350DFB002A8D49 /* button_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click.mp3; sourceTree = "<group>"; };
+		7F824D3522350DFB002A8D49 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		7F824D3622350DFB002A8D49 /* level_failed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = level_failed.mp3; sourceTree = "<group>"; };
+		7F824D3B22350E2E002A8D49 /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
+		7F824D4322352C76002A8D49 /* sky.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sky.json; sourceTree = "<group>"; };
+		7F824D4722352DA1002A8D49 /* wrong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrong.json; sourceTree = "<group>"; };
+		7F8FF04122324F6C00737073 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		7FA079002235743B0005D68C /* correct.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = correct.json; sourceTree = "<group>"; };
+		7FA0790222357A600005D68C /* transition.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transition.json; sourceTree = "<group>"; };
+		7FB24B54222E185D0093C578 /* MathTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB24B57222E185D0093C578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FB24B5C222E185D0093C578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FB24B5E222E185E0093C578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB24B61222E185E0093C578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FB24B63222E185E0093C578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB24B6B222E19DA0093C578 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		7FB24B6D222E217D0093C578 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7FB24B71222E22960093C578 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		7FB24B74222E26A40093C578 /* MultiplicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTableViewCell.swift; sourceTree = "<group>"; };
+		7FB24B76222E5A010093C578 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		7FB24B78222E5DAB0093C578 /* MultiPracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPracticeTableViewCell.swift; sourceTree = "<group>"; };
+		7FB24B7A222E71F50093C578 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		9D534C811075B8BDF6B1F1C7 /* Pods-MathTables.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTables.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathTables/Pods-MathTables.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDCD0FD92DC255EB0A35DB1 /* Pods-MathTables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTables.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathTables/Pods-MathTables.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB24B51222E185D0093C578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5AC22C6A5B3DD3AE6782A7 /* Pods_MathTables.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049879D2AF0272B285106C4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D534C811075B8BDF6B1F1C7 /* Pods-MathTables.debug.xcconfig */,
+				BFDCD0FD92DC255EB0A35DB1 /* Pods-MathTables.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65872D4E4639B5777253DE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E2D9ECD5CF795E47711FE93 /* Pods_MathTables.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F014BA422322073007ECE1E /* Custom Font */ = {
+			isa = PBXGroup;
+			children = (
+				7F014BA32232206B007ECE1E /* LuckiestGuy-Regular.ttf */,
+				7F8FF04122324F6C00737073 /* FredokaOne-Regular.ttf */,
+			);
+			path = "Custom Font";
+			sourceTree = "<group>";
+		};
+		7F824D2B2234C504002A8D49 /* Animation JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7FA0790222357A600005D68C /* transition.json */,
+				7F824D4722352DA1002A8D49 /* wrong.json */,
+				7FA079002235743B0005D68C /* correct.json */,
+				7F824D4322352C76002A8D49 /* sky.json */,
+				7F824D30223508DB002A8D49 /* confetti.json */,
+				7F824D2C2234C519002A8D49 /* submit.json */,
+			);
+			path = "Animation JSON";
+			sourceTree = "<group>";
+		};
+		7F824D3222350DEF002A8D49 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				7F824D3422350DFB002A8D49 /* button_click.mp3 */,
+				7F824D3322350DFB002A8D49 /* correct.mp3 */,
+				7F824D3622350DFB002A8D49 /* level_failed.mp3 */,
+				7F824D3522350DFB002A8D49 /* wrong.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		7FB24B4B222E185D0093C578 = {
+			isa = PBXGroup;
+			children = (
+				7FB24B56222E185D0093C578 /* MathTables */,
+				7FB24B55222E185D0093C578 /* Products */,
+				049879D2AF0272B285106C4D /* Pods */,
+				65872D4E4639B5777253DE69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB24B55222E185D0093C578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB24B54222E185D0093C578 /* MathTables.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB24B56222E185D0093C578 /* MathTables */ = {
+			isa = PBXGroup;
+			children = (
+				7FB24B57222E185D0093C578 /* AppDelegate.swift */,
+				7FB24B70222E21FB0093C578 /* Supporting Files */,
+				7FB24B73222E26880093C578 /* Views */,
+				7FB24B6F222E21D10093C578 /* ViewController */,
+				7FB24B5B222E185D0093C578 /* Main.storyboard */,
+				7FB24B63222E185E0093C578 /* Info.plist */,
+				7F824D3222350DEF002A8D49 /* Sound */,
+				7F824D2B2234C504002A8D49 /* Animation JSON */,
+				7F014BA422322073007ECE1E /* Custom Font */,
+				7FB24B5E222E185E0093C578 /* Assets.xcassets */,
+				7FB24B60222E185E0093C578 /* LaunchScreen.storyboard */,
+			);
+			path = MathTables;
+			sourceTree = "<group>";
+		};
+		7FB24B6F222E21D10093C578 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F014BA12232156D007ECE1E /* MainViewController.swift */,
+				7FB24B6B222E19DA0093C578 /* CategoryViewController.swift */,
+				7FB24B71222E22960093C578 /* LearnViewController.swift */,
+				7FB24B76222E5A010093C578 /* PracticeViewController.swift */,
+				7FB24B7A222E71F50093C578 /* PlayViewController.swift */,
+				7F17B5F622363BFD002CF027 /* ScoreViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7FB24B70222E21FB0093C578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB24B6D222E217D0093C578 /* Constant.swift */,
+				7F824D2E2234F857002A8D49 /* Extension.swift */,
+				7F824D3B22350E2E002A8D49 /* MusicHelper.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FB24B73222E26880093C578 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FB24B74222E26A40093C578 /* MultiplicationTableViewCell.swift */,
+				7FB24B78222E5DAB0093C578 /* MultiPracticeTableViewCell.swift */,
+				7F17B5F8223654CB002CF027 /* ScoreTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB24B53222E185D0093C578 /* MathTables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB24B66222E185E0093C578 /* Build configuration list for PBXNativeTarget "MathTables" */;
+			buildPhases = (
+				3B4BCE11D051B98F7E5B352B /* [CP] Check Pods Manifest.lock */,
+				7FB24B50222E185D0093C578 /* Sources */,
+				7FB24B51222E185D0093C578 /* Frameworks */,
+				7FB24B52222E185D0093C578 /* Resources */,
+				F59411DFD8A594BE1929F01E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTables;
+			productName = MathTables;
+			productReference = 7FB24B54222E185D0093C578 /* MathTables.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB24B4C222E185D0093C578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TinhPV;
+				TargetAttributes = {
+					7FB24B53222E185D0093C578 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FB24B4F222E185D0093C578 /* Build configuration list for PBXProject "MathTables" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB24B4B222E185D0093C578;
+			productRefGroup = 7FB24B55222E185D0093C578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB24B53222E185D0093C578 /* MathTables */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB24B52222E185D0093C578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F824D3922350DFB002A8D49 /* wrong.mp3 in Resources */,
+				7FB24B62222E185E0093C578 /* LaunchScreen.storyboard in Resources */,
+				7FB24B5F222E185E0093C578 /* Assets.xcassets in Resources */,
+				7FA0790322357A610005D68C /* transition.json in Resources */,
+				7FB24B5D222E185D0093C578 /* Main.storyboard in Resources */,
+				7F824D3822350DFB002A8D49 /* button_click.mp3 in Resources */,
+				7F824D4822352DA1002A8D49 /* wrong.json in Resources */,
+				7F824D4422352C76002A8D49 /* sky.json in Resources */,
+				7F824D3722350DFB002A8D49 /* correct.mp3 in Resources */,
+				7FA079012235743B0005D68C /* correct.json in Resources */,
+				7F824D31223508DB002A8D49 /* confetti.json in Resources */,
+				7F824D2D2234C519002A8D49 /* submit.json in Resources */,
+				7F824D3A22350DFB002A8D49 /* level_failed.mp3 in Resources */,
+				7F014BA522322091007ECE1E /* LuckiestGuy-Regular.ttf in Resources */,
+				7F8FF04222324F6E00737073 /* FredokaOne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B4BCE11D051B98F7E5B352B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathTables-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59411DFD8A594BE1929F01E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathTables/Pods-MathTables-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathTables/Pods-MathTables-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB24B50222E185D0093C578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB24B79222E5DAB0093C578 /* MultiPracticeTableViewCell.swift in Sources */,
+				7FB24B7B222E71F50093C578 /* PlayViewController.swift in Sources */,
+				7FB24B58222E185D0093C578 /* AppDelegate.swift in Sources */,
+				7FB24B6C222E19DA0093C578 /* CategoryViewController.swift in Sources */,
+				7FB24B77222E5A010093C578 /* PracticeViewController.swift in Sources */,
+				7F824D2F2234F857002A8D49 /* Extension.swift in Sources */,
+				7FB24B6E222E217D0093C578 /* Constant.swift in Sources */,
+				7F014BA22232156D007ECE1E /* MainViewController.swift in Sources */,
+				7FB24B72222E22960093C578 /* LearnViewController.swift in Sources */,
+				7F824D3C22350E2E002A8D49 /* MusicHelper.swift in Sources */,
+				7F17B5F9223654CB002CF027 /* ScoreTableViewCell.swift in Sources */,
+				7FB24B75222E26A40093C578 /* MultiplicationTableViewCell.swift in Sources */,
+				7F17B5F722363BFD002CF027 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FB24B5B222E185D0093C578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB24B5C222E185D0093C578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FB24B60222E185E0093C578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB24B61222E185E0093C578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB24B64222E185E0093C578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FB24B65222E185E0093C578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB24B67222E185E0093C578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D534C811075B8BDF6B1F1C7 /* Pods-MathTables.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8EKB44LT6;
+				INFOPLIST_FILE = MathTables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinhpv.MathTables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB24B68222E185E0093C578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDCD0FD92DC255EB0A35DB1 /* Pods-MathTables.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8EKB44LT6;
+				INFOPLIST_FILE = MathTables/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinhpv.MathTables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB24B4F222E185D0093C578 /* Build configuration list for PBXProject "MathTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB24B64222E185E0093C578 /* Debug */,
+				7FB24B65222E185E0093C578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB24B66222E185E0093C578 /* Build configuration list for PBXNativeTarget "MathTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB24B67222E185E0093C578 /* Debug */,
+				7FB24B68222E185E0093C578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB24B4C222E185D0093C578 /* Project object */;
+}
